@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name mx1a-led)(type KiCad)(uri "$(KIPRJMOD)/mx1a-led.pretty")(options "")(descr ""))
+  (lib (name mx1a)(type KiCad)(uri "$(KIPRJMOD)/mx1a.pretty")(options "")(descr ""))
+  (lib (name TQFP44)(type Legacy)(uri "$(KIPRJMOD)/lib/TQFP44.mod")(options "")(descr ""))
+  (lib (name WS2812B)(type KiCad)(uri "$(KIPRJMOD)/WS2812B.pretty")(options "")(descr ""))
+  (lib (name USB)(type KiCad)(uri "$(KIPRJMOD)/USB.pretty")(options "")(descr ""))
+  (lib (name DTSJW-66N)(type Legacy)(uri "$(KIPRJMOD)/lib/DTSJW-66N.mod")(options "")(descr ""))
+  (lib (name SM0805)(type Legacy)(uri "$(KIPRJMOD)/lib/SM0805.mod")(options "")(descr ""))
+)

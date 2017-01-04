@@ -42,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title ""
-Date ""
+Date "CW40_2.0"
 Rev ""
 Comp ""
 Comment1 ""
@@ -56,7 +56,7 @@ U 1 1 573FE80D
 P 5050 4350
 F 0 "IC1" H 4250 6180 50  0000 L BNN
 F 1 "ATMEGA32U4" H 5300 2450 50  0000 L BNN
-F 2 "tqfp:TQFP44" H 5550 2375 50  0001 C CNN
+F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 5550 2375 50  0001 C CNN
 F 3 "" H 5050 4350 60  0000 C CNN
 	1    5050 4350
 	1    0    0    -1  
@@ -1002,7 +1002,7 @@ U 1 1 577C8A1F
 P 9300 1700
 F 0 "P2" V 9250 1700 50  0000 C CNN
 F 1 "GPIO Port" V 9350 1700 50  0000 C CNN
-F 2 "" H 9300 1700 60  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 9300 1700 60  0001 C CNN
 F 3 "" H 9300 1700 60  0000 C CNN
 	1    9300 1700
 	1    0    0    -1  
