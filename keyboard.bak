@@ -42,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title ""
-Date ""
+Date "CW40_2.0"
 Rev ""
 Comp ""
 Comment1 ""
@@ -56,7 +56,7 @@ U 1 1 573FE80D
 P 5050 4350
 F 0 "IC1" H 4250 6180 50  0000 L BNN
 F 1 "ATMEGA32U4" H 5300 2450 50  0000 L BNN
-F 2 "tqfp:TQFP44" H 5550 2375 50  0001 C CNN
+F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 5550 2375 50  0001 C CNN
 F 3 "" H 5050 4350 60  0000 C CNN
 	1    5050 4350
 	1    0    0    -1  
@@ -106,28 +106,6 @@ F 3 "" H 3500 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4050 4550
-$Comp
-L GND #PWR02
-U 1 1 573FF693
-P 2400 2800
-F 0 "#PWR02" H 2400 2800 30  0001 C CNN
-F 1 "GND" H 2400 2730 30  0001 C CNN
-F 2 "" H 2400 2800 60  0000 C CNN
-F 3 "" H 2400 2800 60  0000 C CNN
-	1    2400 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L DTSM-6 S0
-U 1 1 573FF79F
-P 2850 2650
-F 0 "S0" V 2565 2550 50  0000 L BNN
-F 1 "DTSM-6" V 2665 2775 50  0000 L BNN
-F 2 "switch:DTSM-6" H 2850 2800 50  0001 C CNN
-F 3 "" H 2850 2650 60  0000 C CNN
-	1    2850 2650
-	0    1    1    0   
-$EndComp
 $Comp
 L R R5
 U 1 1 573FFCDA
@@ -455,11 +433,15 @@ Entry Wire Line
 Wire Wire Line
 	4050 3050 2950 3050
 Wire Wire Line
-	2950 3050 2950 3600
+	2950 3050 2950 3450
+Wire Wire Line
+	2950 3450 2950 3600
 Wire Wire Line
 	2950 3450 3250 3450
 Wire Wire Line
-	3850 3450 4050 3450
+	3850 3450 4000 3450
+Wire Wire Line
+	4000 3450 4050 3450
 Connection ~ 2950 3450
 Wire Wire Line
 	4000 3450 4000 3600
@@ -467,19 +449,14 @@ Connection ~ 4000 3450
 Wire Wire Line
 	2950 4000 2950 4050
 Wire Wire Line
-	2950 4050 4000 4050
+	2950 4050 3500 4050
+Wire Wire Line
+	3500 4050 4000 4050
 Wire Wire Line
 	4000 4050 4000 4000
 Wire Wire Line
 	3500 4050 3500 4200
 Connection ~ 3500 4050
-Wire Wire Line
-	2400 2650 2400 2800
-Wire Wire Line
-	2400 2650 2650 2650
-Wire Wire Line
-	3050 2650 4050 2650
-Connection ~ 3700 2650
 Wire Wire Line
 	3700 1550 4850 1550
 Wire Wire Line
@@ -513,7 +490,9 @@ Wire Wire Line
 Wire Wire Line
 	3900 5500 4050 5500
 Wire Wire Line
-	3900 4850 3900 5500
+	3900 4850 3900 5000
+Wire Wire Line
+	3900 5000 3900 5500
 Wire Wire Line
 	4050 5000 3900 5000
 Connection ~ 3900 5000
@@ -590,11 +569,111 @@ Wire Wire Line
 Entry Wire Line
 	6600 5100 6700 5200
 Wire Bus Line
-	6700 2550 6700 6100
+	6700 2550 6700 3000
+Wire Bus Line
+	6700 3000 6700 3100
+Wire Bus Line
+	6700 3100 6700 3200
+Wire Bus Line
+	6700 3200 6700 3300
+Wire Bus Line
+	6700 3300 6700 3400
+Wire Bus Line
+	6700 3400 6700 3500
+Wire Bus Line
+	6700 3500 6700 3600
+Wire Bus Line
+	6700 3600 6700 3700
+Wire Bus Line
+	6700 3700 6700 3900
+Wire Bus Line
+	6700 3900 6700 4000
+Wire Bus Line
+	6700 4000 6700 4200
+Wire Bus Line
+	6700 4200 6700 4300
+Wire Bus Line
+	6700 4300 6700 4400
+Wire Bus Line
+	6700 4400 6700 4500
+Wire Bus Line
+	6700 4500 6700 4600
+Wire Bus Line
+	6700 4600 6700 4700
+Wire Bus Line
+	6700 4700 6700 4800
+Wire Bus Line
+	6700 4800 6700 4900
+Wire Bus Line
+	6700 4900 6700 5200
+Wire Bus Line
+	6700 5200 6700 5400
+Wire Bus Line
+	6700 5400 6700 5500
+Wire Bus Line
+	6700 5500 6700 5600
+Wire Bus Line
+	6700 5600 6700 5700
+Wire Bus Line
+	6700 5700 6700 5800
+Wire Bus Line
+	6700 5800 6700 5900
+Wire Bus Line
+	6700 5900 6700 6100
 Wire Bus Line
 	6700 6100 8150 6100
 Wire Bus Line
-	8150 6100 8150 1350
+	8150 6100 8150 6050
+Wire Bus Line
+	8150 6050 8150 5900
+Wire Bus Line
+	8150 5900 8150 5750
+Wire Bus Line
+	8150 5750 8150 5600
+Wire Bus Line
+	8150 5600 8150 5450
+Wire Bus Line
+	8150 5450 8150 5300
+Wire Bus Line
+	8150 5300 8150 5150
+Wire Bus Line
+	8150 5150 8150 5000
+Wire Bus Line
+	8150 5000 8150 4850
+Wire Bus Line
+	8150 4850 8150 4700
+Wire Bus Line
+	8150 4700 8150 4550
+Wire Bus Line
+	8150 4550 8150 4400
+Wire Bus Line
+	8150 4400 8150 4250
+Wire Bus Line
+	8150 4250 8150 4100
+Wire Bus Line
+	8150 4100 8150 3950
+Wire Bus Line
+	8150 3950 8150 3450
+Wire Bus Line
+	8150 3450 8150 3300
+Wire Bus Line
+	8150 3300 8150 3150
+Wire Bus Line
+	8150 3150 8150 3000
+Wire Bus Line
+	8150 3000 8150 2850
+Wire Bus Line
+	8150 2850 8150 2000
+Wire Bus Line
+	8150 2000 8150 1900
+Wire Bus Line
+	8150 1900 8150 1800
+Wire Bus Line
+	8150 1800 8150 1700
+Wire Bus Line
+	8150 1700 8150 1600
+Wire Bus Line
+	8150 1600 8150 1350
 Wire Wire Line
 	8250 3850 8900 3850
 Entry Wire Line
@@ -764,11 +843,21 @@ Entry Wire Line
 Entry Wire Line
 	6200 3300 6300 3400
 Wire Bus Line
-	6300 800  6300 3600
+	6300 800  6300 1550
+Wire Bus Line
+	6300 1550 6300 3400
+Wire Bus Line
+	6300 3400 6300 3500
+Wire Bus Line
+	6300 3500 6300 3600
 Wire Bus Line
 	6300 800  4350 800 
 Wire Bus Line
-	4350 800  4350 2100
+	4350 800  4350 1250
+Wire Bus Line
+	4350 1250 4350 1350
+Wire Bus Line
+	4350 1350 4350 2100
 Connection ~ 3700 1550
 Text Label 4500 1550 0    60   ~ 0
 ~Res
@@ -887,10 +976,14 @@ F 3 "" H 5250 1500 60  0000 C CNN
 	1    5250 1500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2650 2750
-NoConn ~ 3050 2750
 Wire Wire Line
-	700  1050 1900 1050
+	700  1050 1000 1050
+Wire Wire Line
+	1000 1050 1300 1050
+Wire Wire Line
+	1300 1050 1600 1050
+Wire Wire Line
+	1600 1050 1900 1050
 Wire Wire Line
 	700  1050 700  1200
 $Comp
@@ -930,7 +1023,9 @@ F 3 "" H 1300 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 900  1300 1200
+	1300 900  1300 1050
+Wire Wire Line
+	1300 1050 1300 1200
 Connection ~ 1300 1050
 $Comp
 L C C6
@@ -962,11 +1057,19 @@ Wire Wire Line
 Wire Wire Line
 	700  1600 700  1750
 Wire Wire Line
-	700  1750 1900 1750
+	700  1750 1000 1750
+Wire Wire Line
+	1000 1750 1300 1750
+Wire Wire Line
+	1300 1750 1600 1750
+Wire Wire Line
+	1600 1750 1900 1750
 Wire Wire Line
 	1000 1750 1000 1600
 Wire Wire Line
-	1300 1600 1300 1900
+	1300 1600 1300 1750
+Wire Wire Line
+	1300 1750 1300 1900
 Connection ~ 1000 1750
 Wire Wire Line
 	1600 1750 1600 1600
@@ -1002,7 +1105,7 @@ U 1 1 577C8A1F
 P 9300 1700
 F 0 "P2" V 9250 1700 50  0000 C CNN
 F 1 "GPIO Port" V 9350 1700 50  0000 C CNN
-F 2 "" H 9300 1700 60  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 9300 1700 60  0001 C CNN
 F 3 "" H 9300 1700 60  0000 C CNN
 	1    9300 1700
 	1    0    0    -1  
@@ -1013,4 +1116,6 @@ Wire Wire Line
 	8250 1900 8900 1900
 Text Label 8350 1900 0    60   ~ 0
 GPIO4
+Wire Wire Line
+	3700 2650 4050 2650
 $EndSCHEMATC
