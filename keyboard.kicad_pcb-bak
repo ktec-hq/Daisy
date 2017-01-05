@@ -1,12 +1,12 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
+(kicad_pcb (version 4) (host pcbnew "(2016-05-05 BZR 6775)-product")
 
   (general
     (links 384)
-    (no_connects 380)
-    (area 21.845069 37.408725 269.727 141.097701)
+    (no_connects 376)
+    (area 21.845068 37.431726 269.8445 182.27482)
     (thickness 1.6)
     (drawings 31)
-    (tracks 0)
+    (tracks 13)
     (zones 0)
     (modules 232)
     (nets 145)
@@ -76,7 +76,6 @@
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
-      (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -628,10 +627,10 @@
     (tags "USB MINI-B HOLE MOUNTED")
     (path /5740162B)
     (attr virtual)
-    (fp_text reference J1 (at 6.61416 4.6736 540) (layer F.SilkS)
+    (fp_text reference J1 (at 6.61416 4.6736 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.0889)))
     )
-    (fp_text value USBMINI_B05 (at 0 0 360) (layer B.SilkS) hide
+    (fp_text value USBMINI_B05 (at 0 0) (layer B.SilkS) hide
       (effects (font (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 3.24866 2.99974) (end 5.74802 2.99974) (layer B.SilkS) (width 0.06604))
@@ -975,7 +974,7 @@
     (tags "resistor 0805")
     (path /574F0D70/576ED701)
     (attr smd)
-    (fp_text reference LR11 (at 2.54 0 360) (layer B.SilkS)
+    (fp_text reference LR11 (at 2.54 0) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 330R (at 0 -2.1 270) (layer B.Fab)
@@ -3014,7 +3013,7 @@
   )
 
   (module Diodes_SMD:SOD-123 (layer B.Cu) (tedit 5530FCB9) (tstamp 586D1B62)
-    (at 151.257 129.878999)
+    (at 152.4 127)
     (descr SOD-123)
     (tags SOD-123)
     (path /57404552/5740CC27)
@@ -3164,21 +3163,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D1BB4)
-    (at 53.34 170.18)
+    (at 53.34 170.18 180)
     (path /574F0D70/5761C2BE)
-    (fp_text reference LED41 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED41 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 139 "Net-(LED41-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -3188,21 +3187,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D1BBE)
-    (at 199.39 140.97)
+    (at 199.39 140.97 180)
     (path /574F0D70/5761C992)
-    (fp_text reference LED42 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED42 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 140 "Net-(LED42-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -3212,21 +3211,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D1BC8)
-    (at 175.26 143.51)
+    (at 175.26 143.51 180)
     (path /574F0D70/586DDF7F)
-    (fp_text reference LED331 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED331 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 141 "Net-(LED331-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -3236,21 +3235,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D1BD2)
-    (at 146.05 151.13)
+    (at 146.05 151.13 180)
     (path /574F0D70/586DE4FB)
-    (fp_text reference LED341 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED341 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 142 "Net-(LED341-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -3260,21 +3259,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D1BDC)
-    (at 81.28 154.94)
+    (at 81.28 154.94 180)
     (path /574F0D70/586D5743)
-    (fp_text reference LED391 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED391 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 143 "Net-(LED391-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -3313,7 +3312,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer B.Cu) (tedit 5415CDEB) (tstamp 586D1BF4)
-    (at 151.257 129.878999)
+    (at 157.48 127)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /574F0D70/5741986A)
@@ -3429,25 +3428,25 @@
   )
 
   (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 586D1C25)
-    (at 124.46 165.1)
+    (at 124.46 165.1 180)
     (path /57404552/5740CC20)
-    (fp_text reference S41 (at -4.826 9.2075) (layer F.SilkS) hide
+    (fp_text reference S41 (at -4.826 9.2075 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.98018 3.98018) (drill 3.98018) (layers *.Cu *.Mask))
-    (pad 2 thru_hole circle (at 2.54 -5.08) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
+    (pad "" np_thru_hole circle (at 0 0 180) (size 3.98018 3.98018) (drill 3.98018) (layers *.Cu *.Mask))
+    (pad 2 thru_hole circle (at 2.54 -5.08 180) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
       (net 125 "Net-(D41-Pad2)"))
-    (pad 1 thru_hole circle (at -3.81 -2.54) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -3.81 -2.54 180) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
       (net 132 /Row3))
-    (pad "" np_thru_hole circle (at -5.08 0) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at 5.08 0) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
     (model ${KIPRJMOD}/lib/mx1a.pretty/cherrymx.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3456,25 +3455,25 @@
   )
 
   (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 586D1C32)
-    (at 93.98 171.45)
+    (at 93.98 171.45 180)
     (path /57404552/5740CC2F)
-    (fp_text reference S42 (at -4.826 9.2075) (layer F.SilkS) hide
+    (fp_text reference S42 (at -4.826 9.2075 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.98018 3.98018) (drill 3.98018) (layers *.Cu *.Mask))
-    (pad 2 thru_hole circle (at 2.54 -5.08) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
+    (pad "" np_thru_hole circle (at 0 0 180) (size 3.98018 3.98018) (drill 3.98018) (layers *.Cu *.Mask))
+    (pad 2 thru_hole circle (at 2.54 -5.08 180) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
       (net 126 "Net-(D42-Pad2)"))
-    (pad 1 thru_hole circle (at -3.81 -2.54) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -3.81 -2.54 180) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
       (net 132 /Row3))
-    (pad "" np_thru_hole circle (at -5.08 0) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at 5.08 0) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
     (model ${KIPRJMOD}/lib/mx1a.pretty/cherrymx.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3483,25 +3482,25 @@
   )
 
   (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 586D1C3F)
-    (at 58.42 146.05)
+    (at 40.64 130.81 180)
     (path /57404552/586CD089)
-    (fp_text reference S321 (at -4.826 9.2075) (layer F.SilkS) hide
+    (fp_text reference S321 (at -4.826 9.2075 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.98018 3.98018) (drill 3.98018) (layers *.Cu *.Mask))
-    (pad 2 thru_hole circle (at 2.54 -5.08) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
+    (pad "" np_thru_hole circle (at 0 0 180) (size 3.98018 3.98018) (drill 3.98018) (layers *.Cu *.Mask))
+    (pad 2 thru_hole circle (at 2.54 -5.08 180) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
       (net 127 "Net-(D321-Pad2)"))
-    (pad 1 thru_hole circle (at -3.81 -2.54) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -3.81 -2.54 180) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
       (net 135 /Row2))
-    (pad "" np_thru_hole circle (at -5.08 0) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at 5.08 0) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
     (model ${KIPRJMOD}/lib/mx1a.pretty/cherrymx.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3510,25 +3509,25 @@
   )
 
   (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 586D1C4C)
-    (at 107.95 133.35)
+    (at 107.95 133.35 90)
     (path /57404552/586CDBF9)
-    (fp_text reference S331 (at -4.826 9.2075) (layer F.SilkS) hide
+    (fp_text reference S331 (at -4.826 9.2075 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value MX1A (at -5.08 -8.89 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.98018 3.98018) (drill 3.98018) (layers *.Cu *.Mask))
-    (pad 2 thru_hole circle (at 2.54 -5.08) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
+    (pad "" np_thru_hole circle (at 0 0 90) (size 3.98018 3.98018) (drill 3.98018) (layers *.Cu *.Mask))
+    (pad 2 thru_hole circle (at 2.54 -5.08 90) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
       (net 128 "Net-(D331-Pad2)"))
-    (pad 1 thru_hole circle (at -3.81 -2.54) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -3.81 -2.54 90) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
       (net 135 /Row2))
-    (pad "" np_thru_hole circle (at -5.08 0) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at 5.08 0) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -5.08 0 90) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 5.08 0 90) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
     (model ${KIPRJMOD}/lib/mx1a.pretty/cherrymx.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3537,25 +3536,25 @@
   )
 
   (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 586D1C59)
-    (at 162.56 165.1)
+    (at 162.56 165.1 180)
     (path /57404552/586CA3F7)
-    (fp_text reference S381 (at -4.826 9.2075) (layer F.SilkS) hide
+    (fp_text reference S381 (at -4.826 9.2075 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value MX1A (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value MX1A (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.98018 3.98018) (drill 3.98018) (layers *.Cu *.Mask))
-    (pad 2 thru_hole circle (at 2.54 -5.08) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
+    (pad "" np_thru_hole circle (at 0 0 180) (size 3.98018 3.98018) (drill 3.98018) (layers *.Cu *.Mask))
+    (pad 2 thru_hole circle (at 2.54 -5.08 180) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
       (net 129 "Net-(D381-Pad2)"))
-    (pad 1 thru_hole circle (at -3.81 -2.54) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -3.81 -2.54 180) (size 2.49936 2.49936) (drill 1.50114) (layers *.Cu *.Mask)
       (net 132 /Row3))
-    (pad "" np_thru_hole circle (at -5.08 0) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at 5.08 0) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.69926 1.69926) (drill 1.69926) (layers *.Cu *.Mask))
     (model ${KIPRJMOD}/lib/mx1a.pretty/cherrymx.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4884,21 +4883,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2AB1)
-    (at 65.532 53.086)
+    (at 65.532 53.086 180)
     (path /574F0D70/5763AFFF)
-    (fp_text reference LED1 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED1 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 58 "Net-(LED1-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -4908,21 +4907,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2ABA)
-    (at 103.632 53.086)
+    (at 103.632 53.086 180)
     (path /574F0D70/5766876E)
-    (fp_text reference LED2 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED2 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 59 "Net-(LED2-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -4932,21 +4931,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2AC3)
-    (at 122.682 53.086)
+    (at 122.682 53.086 180)
     (path /574F0D70/5767F152)
-    (fp_text reference LED3 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED3 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 60 "Net-(LED3-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -4956,21 +4955,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2ACC)
-    (at 141.732 53.086)
+    (at 141.732 53.086 180)
     (path /574F0D70/5766935A)
-    (fp_text reference LED4 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED4 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 61 "Net-(LED4-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -4980,21 +4979,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2AD5)
-    (at 160.782 53.086)
+    (at 160.782 53.086 180)
     (path /574F0D70/5763A1D1)
-    (fp_text reference LED5 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED5 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 62 "Net-(LED5-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5004,21 +5003,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2ADE)
-    (at 179.832 53.086)
+    (at 179.832 53.086 180)
     (path /574F0D70/576694D5)
-    (fp_text reference LED6 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED6 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 63 "Net-(LED6-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5028,21 +5027,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2AE7)
-    (at 198.882 53.086)
+    (at 198.882 53.086 180)
     (path /574F0D70/5763A6B6)
-    (fp_text reference LED7 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED7 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 64 "Net-(LED7-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5052,21 +5051,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2AF0)
-    (at 217.932 53.086)
+    (at 217.932 53.086 180)
     (path /574F0D70/5766972F)
-    (fp_text reference LED8 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED8 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 65 "Net-(LED8-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5076,21 +5075,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2AF9)
-    (at 236.982 53.086)
+    (at 236.982 53.086 180)
     (path /574F0D70/57689DE4)
-    (fp_text reference LED9 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED9 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 66 "Net-(LED9-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5100,21 +5099,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B02)
-    (at 256.032 53.086)
+    (at 256.032 53.086 180)
     (path /574F0D70/57689F4A)
-    (fp_text reference LED10 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED10 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 67 "Net-(LED10-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5124,21 +5123,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B0B)
-    (at 48.86452 72.136)
+    (at 48.86452 72.136 180)
     (path /574F0D70/576ED6FB)
-    (fp_text reference LED11 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED11 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 68 "Net-(LED11-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 136 /Caps))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5148,21 +5147,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B14)
-    (at 46.482 53.086)
+    (at 46.482 53.086 180)
     (path /574F0D70/576A23FF)
-    (fp_text reference LED12 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED12 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 69 "Net-(LED12-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 133 /ESC))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5172,21 +5171,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B1D)
-    (at 84.582 53.086)
+    (at 84.582 53.086 180)
     (path /574F0D70/576D6AF4)
-    (fp_text reference LED13 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED13 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 70 "Net-(LED13-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 134 /WASD))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5196,21 +5195,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B26)
-    (at 70.29577 72.136)
+    (at 70.29577 72.136 180)
     (path /574F0D70/576D7542)
-    (fp_text reference LED14 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED14 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 71 "Net-(LED14-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 134 /WASD))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5220,21 +5219,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B2F)
-    (at 89.34577 72.136)
+    (at 89.34577 72.136 180)
     (path /574F0D70/576D7CBB)
-    (fp_text reference LED15 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED15 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 72 "Net-(LED15-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 134 /WASD))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5244,21 +5243,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B38)
-    (at 108.39577 72.136)
+    (at 108.39577 72.136 180)
     (path /574F0D70/576D7E1B)
-    (fp_text reference LED16 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED16 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 73 "Net-(LED16-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 134 /WASD))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5268,21 +5267,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B41)
-    (at 127.44577 72.136)
+    (at 127.44577 72.136 180)
     (path /574F0D70/57668DAE)
-    (fp_text reference LED17 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED17 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 74 "Net-(LED17-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5292,21 +5291,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B4A)
-    (at 146.812 72.136)
+    (at 146.812 72.136 180)
     (path /574F0D70/57668F13)
-    (fp_text reference LED18 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED18 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 75 "Net-(LED18-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5316,21 +5315,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B53)
-    (at 165.54577 72.136)
+    (at 165.54577 72.136 180)
     (path /574F0D70/5766907D)
-    (fp_text reference LED19 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED19 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 76 "Net-(LED19-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5364,21 +5363,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B65)
-    (at 203.64577 72.136)
+    (at 203.64577 72.136 180)
     (path /574F0D70/576688C3)
-    (fp_text reference LED21 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED21 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 78 "Net-(LED21-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5388,21 +5387,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B6E)
-    (at 222.69577 72.136)
+    (at 222.69577 72.136 180)
     (path /574F0D70/576691EE)
-    (fp_text reference LED22 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED22 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 79 "Net-(LED22-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5412,21 +5411,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B77)
-    (at 248.88952 72.136)
+    (at 248.88952 72.136 180)
     (path /574F0D70/57668B78)
-    (fp_text reference LED23 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED23 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 80 "Net-(LED23-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5436,21 +5435,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B80)
-    (at 53.62575 91.186)
+    (at 53.62575 91.186 180)
     (path /574F0D70/5761C6BD)
-    (fp_text reference LED24 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED24 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 81 "Net-(LED24-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5460,21 +5459,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B89)
-    (at 79.8195 91.186)
+    (at 79.8195 91.186 180)
     (path /574F0D70/5761C834)
-    (fp_text reference LED25 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED25 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 82 "Net-(LED25-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5484,21 +5483,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B92)
-    (at 98.8695 91.186)
+    (at 98.8695 91.186 180)
     (path /574F0D70/57639F1E)
-    (fp_text reference LED26 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED26 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 83 "Net-(LED26-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5508,21 +5507,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2B9B)
-    (at 117.9195 91.186)
+    (at 117.9195 91.186 180)
     (path /574F0D70/5763A079)
-    (fp_text reference LED27 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED27 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 84 "Net-(LED27-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5532,21 +5531,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2BA4)
-    (at 136.9695 91.186)
+    (at 136.9695 91.186 180)
     (path /574F0D70/5763ABBE)
-    (fp_text reference LED28 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED28 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 85 "Net-(LED28-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5556,21 +5555,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2BAD)
-    (at 156.0195 91.186)
+    (at 156.0195 91.186 180)
     (path /574F0D70/5761CAF1)
-    (fp_text reference LED29 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED29 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 86 "Net-(LED29-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5580,21 +5579,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2BB6)
-    (at 175.0695 91.186)
+    (at 175.0695 91.186 180)
     (path /574F0D70/5763A96D)
-    (fp_text reference LED30 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED30 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 87 "Net-(LED30-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5604,21 +5603,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2BBF)
-    (at 194.1195 91.186)
+    (at 194.1195 91.186 180)
     (path /574F0D70/5763A338)
-    (fp_text reference LED31 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED31 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 88 "Net-(LED31-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5628,21 +5627,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2BC8)
-    (at 213.1695 91.186)
+    (at 213.1695 91.186 180)
     (path /574F0D70/5763A809)
-    (fp_text reference LED32 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED32 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 89 "Net-(LED32-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5652,21 +5651,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2BD1)
-    (at 234.60075 91.186)
+    (at 234.60075 91.186 180)
     (path /574F0D70/5763AD24)
-    (fp_text reference LED33 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED33 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 90 "Net-(LED33-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5676,21 +5675,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2BDA)
-    (at 256.032 91.186)
+    (at 256.032 91.186 180)
     (path /574F0D70/5763AE91)
-    (fp_text reference LED34 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED34 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 91 "Net-(LED34-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5700,21 +5699,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2BE3)
-    (at 48.86452 110.236)
+    (at 48.86452 110.236 180)
     (path /574F0D70/5761B75D)
-    (fp_text reference LED35 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED35 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 92 "Net-(LED35-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5724,21 +5723,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2BEC)
-    (at 70.29577 110.236)
+    (at 70.29577 110.236 180)
     (path /574F0D70/5761C171)
-    (fp_text reference LED36 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED36 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 93 "Net-(LED36-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5748,21 +5747,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2BF5)
-    (at 89.34577 110.236)
+    (at 89.34577 110.236 180)
     (path /574F0D70/5761C40C)
-    (fp_text reference LED37 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED37 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 94 "Net-(LED37-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5772,21 +5771,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2BFE)
-    (at 158.40202 110.236)
+    (at 158.40202 110.236 180)
     (path /574F0D70/586D508C)
-    (fp_text reference LED38 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED38 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 95 "Net-(LED38-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5796,21 +5795,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2C07)
-    (at 229.83952 110.236)
+    (at 229.83952 110.236 180)
     (path /574F0D70/5761C55F)
-    (fp_text reference LED39 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED39 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 96 "Net-(LED39-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -5820,21 +5819,21 @@
   )
 
   (module mx1a:MX1A-led (layer F.Cu) (tedit 56CF6AE2) (tstamp 586D2C10)
-    (at 253.65202 110.236)
+    (at 253.65202 110.236 180)
     (path /574F0D70/586D4C7D)
-    (fp_text reference LED40 (at 3.683 -5.969) (layer F.SilkS) hide
+    (fp_text reference LED40 (at 3.683 -5.969 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value LED (at -5.08 -8.89) (layer F.SilkS) hide
+    (fp_text value LED (at -5.08 -8.89 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -7.62 -7.62) (end 7.62 -7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 -7.62) (end 7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start 7.62 7.62) (end -7.62 7.62) (layer F.SilkS) (width 0.381))
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at -1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 97 "Net-(LED40-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 5.08) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 1.27 5.08 180) (size 1.6002 1.6002) (drill 0.8128) (layers *.Cu *.Mask)
       (net 2 GND))
     (model LEDs.3dshapes/LED-3MM.wrl
       (at (xyz 0 -0.2 0.25))
@@ -7004,6 +7003,20 @@
   (gr_text "Special Thanks to SmallFry40\n" (at 238.252 118.364) (layer B.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.3)) (justify mirror))
   )
+
+  (segment (start 132.192 108.674) (end 137.706 108.674) (width 0.25) (layer B.Cu) (net 1) (status 400000))
+  (segment (start 139.192 107.188) (end 139.192 105.25506) (width 0.25) (layer B.Cu) (net 1) (tstamp 586DB784) (status 800000))
+  (segment (start 137.706 108.674) (end 139.192 107.188) (width 0.25) (layer B.Cu) (net 1) (tstamp 586DB782))
+  (segment (start 139.192 105.25506) (end 143.68094 105.25506) (width 0.25) (layer B.Cu) (net 1))
+  (segment (start 143.68094 105.25506) (end 144.018 104.918) (width 0.25) (layer B.Cu) (net 1) (tstamp 586DB75B))
+  (segment (start 138.52906 109.474) (end 139.192 110.13694) (width 0.25) (layer B.Cu) (net 3) (tstamp 586D3167))
+  (segment (start 132.192 109.474) (end 138.52906 109.474) (width 0.25) (layer B.Cu) (net 3))
+  (segment (start 136.332 106.238) (end 136.332 101.346) (width 0.25) (layer B.Cu) (net 5) (tstamp 586D3158))
+  (segment (start 135.496 107.074) (end 136.332 106.238) (width 0.25) (layer B.Cu) (net 5) (tstamp 586D3157))
+  (segment (start 132.192 107.074) (end 135.496 107.074) (width 0.25) (layer B.Cu) (net 5))
+  (segment (start 132.192 106.274) (end 133.756 106.274) (width 0.25) (layer B.Cu) (net 47))
+  (segment (start 134.432 105.598) (end 134.432 101.346) (width 0.25) (layer B.Cu) (net 47) (tstamp 586D3153))
+  (segment (start 133.756 106.274) (end 134.432 105.598) (width 0.25) (layer B.Cu) (net 47) (tstamp 586D3152))
 
   (zone (net 0) (net_name "") (layer F.Cu) (tstamp 576BE748) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
