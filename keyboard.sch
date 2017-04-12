@@ -853,7 +853,7 @@ U 1 1 578992A9
 P 5250 1500
 F 0 "P1" H 5250 1750 50  0000 C CNN
 F 1 "ISP" V 5250 1550 40  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x03" H 5250 1500 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x03_Pitch2.54mm" H 5250 1500 60  0001 C CNN
 F 3 "" H 5250 1500 60  0000 C CNN
 	1    5250 1500
 	1    0    0    -1  
@@ -971,7 +971,7 @@ U 1 1 577C8A1F
 P 9300 1700
 F 0 "P2" V 9250 1700 50  0000 C CNN
 F 1 "GPIO Port" V 9350 1700 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 9300 1700 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x05_Pitch2.54mm" H 9300 1700 60  0001 C CNN
 F 3 "" H 9300 1700 60  0000 C CNN
 	1    9300 1700
 	1    0    0    -1  
