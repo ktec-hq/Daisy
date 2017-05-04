@@ -10,4 +10,5 @@
   (lib (name holes)(type Legacy)(uri "$(KIPRJMOD)/lib/holes.mod")(options "")(descr ""))
   (lib (name SI2305)(type KiCad)(uri "$(KIPRJMOD)/SI2305.pretty")(options "")(descr ""))
   (lib (name keebs)(type KiCad)(uri "$(KIPRJMOD)/keebs.pretty")(options "")(descr ""))
+  (lib (name cw40)(type KiCad)(uri "$(KIPRJMOD)/cw40-logo.pretty")(options "")(descr ""))
 )
