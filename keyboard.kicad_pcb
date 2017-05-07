@@ -3,7 +3,7 @@
   (general
     (links 385)
     (no_connects 0)
-    (area 29.949999 29.949999 258.649916 106.250175)
+    (area -1.360713 -0.9 258.749201 107.1366)
     (thickness 1.6)
     (drawings 14)
     (tracks 2553)
@@ -66,7 +66,7 @@
     (grid_origin 190.119 90.424)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010d0_80000001)
+      (layerselection 0x010f0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -11494,8 +11494,8 @@
   (segment (start 39.878 71.086) (end 39.878 71.374) (width 0.25) (layer B.Cu) (net 34) (status 30))
   (segment (start 35.306 52.036) (end 35.306 52.324) (width 0.25) (layer B.Cu) (net 34) (status 30))
   (segment (start 147.193 41.148) (end 147.447 41.402) (width 0.25) (layer B.Cu) (net 36))
-  (segment (start 144.018 38.00178) (end 144.018 38.989) (width 0.25) (layer B.Cu) (net 36) (status 400000))
-  (segment (start 144.338 41.91) (end 143.256 42.992) (width 0.25) (layer B.Cu) (net 36) (tstamp 590EC2E4) (status 800000))
+  (segment (start 144.018 38.00178) (end 144.018 38.989) (width 0.25) (layer B.Cu) (net 36))
+  (segment (start 144.338 41.91) (end 143.256 42.992) (width 0.25) (layer B.Cu) (net 36) (tstamp 590EC2E4))
   (segment (start 147.447 41.402) (end 147.447 41.656) (width 0.25) (layer B.Cu) (net 36) (tstamp 590EC30E))
   (segment (start 147.447 41.656) (end 147.193 41.91) (width 0.25) (layer B.Cu) (net 36) (tstamp 590EC2E0))
   (segment (start 147.193 41.91) (end 144.338 41.91) (width 0.25) (layer B.Cu) (net 36) (tstamp 590EC2E2))
