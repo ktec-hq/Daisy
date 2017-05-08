@@ -41,10 +41,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title ""
-Date "CW40_2.0"
-Rev ""
-Comp ""
+Title "Daisy"
+Date "2017-05-08"
+Rev "v0.1a"
+Comp "K.T.E.C."
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -341,8 +341,8 @@ $EndComp
 $Sheet
 S 8900 3750 550  2300
 U 57404552
-F0 "Matrix" 60
-F1 "Matrix.sch" 60
+F0 "matrix" 60
+F1 "matrix.sch" 60
 F2 "Row0" B L 8900 3850 60 
 F3 "Row1" B L 8900 4000 60 
 F4 "Row2" B L 8900 4150 60 

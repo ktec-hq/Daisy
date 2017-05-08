@@ -10,4 +10,5 @@
   (lib (name SI2305)(type KiCad)(uri "$(KIPRJMOD)/SI2305.pretty")(options "")(descr ""))
   (lib (name keebs)(type KiCad)(uri "$(KIPRJMOD)/keebs.pretty")(options "")(descr ""))
   (lib (name daisy)(type KiCad)(uri "$(KIPRJMOD)/daisy-logo.pretty")(options "")(descr ""))
+  (lib (name ktec)(type KiCad)(uri "$(KIPRJMOD)/ktec.pretty")(options "")(descr ""))
 )

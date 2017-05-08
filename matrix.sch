@@ -41,10 +41,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title "CW40_2.0"
-Date "2001-01-01"
-Rev "1"
-Comp ""
+Title "Daisy"
+Date "2017-05-08"
+Rev "v0.1a"
+Comp "K.T.E.C."
 Comment1 ""
 Comment2 ""
 Comment3 ""
