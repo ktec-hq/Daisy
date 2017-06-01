@@ -1,4 +1,4 @@
-update=2017/4/12 0:29:04
+update=5/31/2017 3:44:56 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=lib
+LibDir=Libraries/Symbols
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,13 +68,8 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=lib/aker
-LibName31=lib/atmega32u4
-LibName32=lib/conn
-LibName33=lib/device
-LibName34=lib/dtsjw
-LibName35=lib/mechanical
-LibName36=lib/mx1a-simple
-LibName37=lib/power
-LibName38=lib/usb_ports
-LibName39=lib/ws2812b
+LibName30=Libraries/Symbols/USB
+LibName31=Libraries/Symbols/WS2812B
+LibName32=Libraries/Symbols/MX1A
+LibName33=Libraries/Symbols/ATMEGA32U4
+LibName34=Libraries/Symbols/WE05-4RVLCH
