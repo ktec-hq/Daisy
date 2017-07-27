@@ -1,8 +1,8 @@
-(module D_0805_V2 (layer F.Cu) (tedit 5926B840)
+(module D_0805_V2 (layer F.Cu) (tedit 59709A39)
   (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
   (tags "resistor 0805")
   (attr smd)
-  (fp_text reference REF** (at 1.905 0 90) (layer F.SilkS)
+  (fp_text reference REF** (at 2.2225 0 90) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.1524)))
   )
   (fp_text value D_0805 (at -2.2225 0 90) (layer F.Fab) hide

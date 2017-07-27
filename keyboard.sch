@@ -450,7 +450,7 @@ Entry Wire Line
 Text Label 6350 5100 0    60   ~ 0
 GPIO4
 Text Label 6350 3200 0    60   ~ 0
-GPIO3
+Col8
 Text Label 6350 4600 0    60   ~ 0
 Row0
 Text Label 6350 4500 0    60   ~ 0
@@ -458,7 +458,7 @@ Row1
 Text Label 6350 4300 0    60   ~ 0
 Row2
 Text Label 6350 4200 0    60   ~ 0
-Row3
+Col10
 Text Label 6350 3900 0    60   ~ 0
 Caps
 Text Label 8350 4600 0    60   ~ 0
@@ -495,14 +495,14 @@ Entry Wire Line
 	8150 3300 8250 3200
 Text Label 6350 3800 0    60   ~ 0
 RGB
-Text Label 6350 3600 0    60   ~ 0
-Col7
+Text Label 6050 3600 0    60   ~ 0
+GPIO0
 Text Label 6350 3100 0    60   ~ 0
-Col9
+Col7
 Text Label 6350 3000 0    60   ~ 0
-Col10
-Text Label 6350 2900 0    60   ~ 0
 Col6
+Text Label 6350 2900 0    60   ~ 0
+Row3
 Text Label 8350 5350 0    60   ~ 0
 Col6
 Text Label 8350 5500 0    60   ~ 0
@@ -554,13 +554,13 @@ Entry Wire Line
 Text Label 5450 1450 0    60   ~ 0
 MOSI
 Text Label 6050 3500 0    60   ~ 0
-GPIO2
+GPIO1
 Text Label 6050 3400 0    60   ~ 0
-GPIO0
+GPIO2
 Text Label 6400 3300 0    60   ~ 0
 MISO
 Text Label 6350 4100 0    60   ~ 0
-Col8
+Col9
 Entry Wire Line
 	8150 1550 8250 1450
 Entry Wire Line
@@ -683,7 +683,7 @@ GPIO6
 Text Label 6350 4800 0    60   ~ 0
 GPIO7
 Text Label 6050 3300 0    60   ~ 0
-GPIO1
+GPIO3
 Text Label 6400 3400 0    60   ~ 0
 MOSI
 Text Label 6400 3500 0    60   ~ 0
@@ -1236,4 +1236,6 @@ Connection ~ 8750 2200
 Wire Wire Line
 	8950 2050 8950 2300
 Connection ~ 8950 2300
+Text Label 6400 3600 0    60   ~ 0
+SS
 $EndSCHEMATC
