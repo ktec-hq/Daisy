@@ -40,8 +40,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 3 3
 Title "Daisy"
-Date "2017-05-08"
-Rev "v0.1a"
+Date "2017-08-17"
+Rev "v1.0"
 Comp "K.T.E.C."
 Comment1 ""
 Comment2 ""
