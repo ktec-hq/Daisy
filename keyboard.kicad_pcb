@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
     (links 675)
     (no_connects 0)
-    (area 9.145001 14.295 261.424057 107.2769)
+    (area 13.434287 14.445 261.347857 107.3785)
     (thickness 1.6)
     (drawings 102)
     (tracks 2039)
@@ -12664,7 +12664,7 @@
   (gr_arc (start 29.77566 103.575724) (end 28.07566 103.575724) (angle -90) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 255.97566 103.575724) (end 255.97566 105.275724) (angle -90) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 255.97566 29.77555) (end 257.67566 29.77555) (angle -90) (layer Edge.Cuts) (width 0.1))
-  (gr_text v0.4 (at 94.9325 97.79) (layer B.SilkS)
+  (gr_text v1.0 (at 94.9325 97.79) (layer B.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.1524)) (justify left mirror))
   )
   (gr_text "©2017 K.T.E.C." (at 247.9675 103.1875) (layer B.SilkS)
@@ -18109,7 +18109,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 33.655 65.405) (xy 32.385 65.405) (xy 32.385 64.135) (xy 33.655 64.135) (xy 33.655 65.405)
+        (xy 33.655 65.405) (xy 32.385 65.405) (xy 32.385 64.135) (xy 33.655 64.135)
       )
     )
     (filled_polygon
@@ -18124,7 +18124,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 246.6975 65.405) (xy 245.4275 65.405) (xy 245.4275 64.135) (xy 246.6975 64.135) (xy 246.6975 65.405)
+        (xy 246.6975 65.405) (xy 245.4275 65.405) (xy 245.4275 64.135) (xy 246.6975 64.135)
       )
     )
     (filled_polygon
@@ -18139,7 +18139,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 215.74125 100.965) (xy 214.47125 100.965) (xy 214.47125 99.695) (xy 215.74125 99.695) (xy 215.74125 100.965)
+        (xy 215.74125 100.965) (xy 214.47125 100.965) (xy 214.47125 99.695) (xy 215.74125 99.695)
       )
     )
     (filled_polygon
